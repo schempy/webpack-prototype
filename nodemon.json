@@ -1,0 +1,13 @@
+{
+	"script": "server/index.js",
+	"verbose": false,
+	"ignore": [
+		"node_modules/**/node_modules",
+		"public"
+	],
+	"watch": [
+		"server",
+		"src"
+	],
+	"ext": "js jsx"
+}
